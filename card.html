@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        .wrapper {
+            display: flex;
+            gap: 20px;
+            width: 300px;
+            overflow-x: scroll;
+            scroll-snap-type: x proximity;
+        }
+
+        .card{
+            scroll-snap-align: center;
+            box-sizing: border-box;
+            width: 300px;
+            padding: 20px 30px;
+            flex-shrink: 0;
+            text-align: center;
+            background-color: rgb(235, 220, 220);
+            border-radius: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="card">
+            <h1>Card 1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nisi ipsum distinctio quis laboriosam quod
+                unde eius, sed voluptatem laudantium labore rem eum velit reprehenderit hic officiis corrupti architecto
+                natus!</p>
+        </div>
+        <div class="card">
+            <h1>Card 2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nisi ipsum distinctio quis laboriosam quod
+                unde eius, sed voluptatem laudantium labore rem eum velit reprehenderit hic officiis corrupti architecto
+                natus!</p>
+        </div>
+        <div class="card">
+            <h1>Card 3</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nisi ipsum distinctio quis laboriosam quod
+                unde eius, sed voluptatem laudantium labore rem eum velit reprehenderit hic officiis corrupti architecto
+                natus!</p>
+        </div>
+        <div class="card">
+            <h1>Card 4</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nisi ipsum distinctio quis laboriosam quod
+                unde eius, sed voluptatem laudantium labore rem eum velit reprehenderit hic officiis corrupti architecto
+                natus!</p>
+        </div>
+        <div class="card">
+            <h1>Card 5</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nisi ipsum distinctio quis laboriosam quod
+                unde eius, sed voluptatem laudantium labore rem eum velit reprehenderit hic officiis corrupti architecto
+                natus!</p>
+        </div>
+    </div>
+</body>
+
+</html>
