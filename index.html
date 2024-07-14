@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Let's create a form</h1>
+    <form action="post">
+        <div class="first_line">
+            <label for="username">Enter your name</label>
+            <input type="text" id="username" name="username" placeholder="Enter your name" autofocus>
+        </div>
+        <div class="second">
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div class="third">
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe my newsletter</label>
+        </div>
+        <div class="comment">
+            <label for="comment">Enter your comment</label>
+            <br>
+            <textarea name="comment" id="comment" rows="4" cols="50"></textarea>
+        </div>
+        <div class="select">
+            <select name="fruits">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="cherry">Cherry</option>
+                <option value="mango">Mango</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
